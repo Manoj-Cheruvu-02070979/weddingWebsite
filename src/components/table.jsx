@@ -49,7 +49,7 @@ export default class MenuTabular extends Component {
 
     return (
       <div>
-        <Menu pointing secondary>
+        <Menu pointing secondary size='massive'>
           <Menu.Item
             name='Event Details'
             active={activeItem === 'Event Details'}

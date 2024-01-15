@@ -10,6 +10,7 @@ export default function EventDetails() {
     setShowMap(true);
   };
 
+
   return (
     <div>
       <Ganesh />
@@ -22,7 +23,7 @@ export default function EventDetails() {
           </Header>
         </div>
         <div>
-          <p style={{ fontFamily: 'Shadows Into Light', fontWeight: 'bold' }}>Pelli vedika: Club House, Lanco Hills, Hyderabad, Telangana.</p>
+          <p style={{ fontFamily: 'Shadows Into Light', fontWeight: 'bold' }}>Marriage, Sangeeth Venue: Club House, Lanco Hills, Hyderabad, Telangana.</p>
           <Button primary onClick={handleOpenMap}>Open in Google Maps</Button>
         </div>
       </Container>

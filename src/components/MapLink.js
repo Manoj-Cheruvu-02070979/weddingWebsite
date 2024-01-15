@@ -1,4 +1,5 @@
 import React from 'react';
+import { Button } from 'semantic-ui-react';
 
 const MapLink = ({ origin, destination }) => {
   const handleClick = () => {
@@ -7,9 +8,9 @@ const MapLink = ({ origin, destination }) => {
   };
 
   return (
-    <button onClick={handleClick}>
+    <Button primary onClick={handleClick}>
       Show Route
-    </button>
+    </Button>
   );
 };
 
